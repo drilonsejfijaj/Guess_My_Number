@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: hsl(0, 0%, 15%);
+  max-width: 104rem;
+  height: 100vh;
+  /* max-width: 95rem;
+  height: 48rem; */
+  font-family: "Press Start 2P", cursive;
+}
+.header {
+  max-width: 100%;
+  background-color: inherit;
+  padding: 1.2rem 1.4rem;
+  position: relative;
+  /* margin-bottom: 1.2rem; */
+
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  background-color: #c0c0c0;
+}
+.header-text {
+  color: #fff;
+}
+.main {
+  max-width: 100%;
+  border-bottom: 7px solid #fff;
+  position: relative;
+  height: 10.9rem;
+  margin-bottom: 6.4rem;
+}
+.main-header {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #fff;
+  /* margin-bottom: 20.2rem; */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%); */
+}
+
+.white-border {
+  color: #222;
+  background-color: #dcdcdc;
+  padding: 2rem 2.6rem;
+  text-align: right;
+  font-size: 4.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+.section {
+  max-width: 104rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.check {
+  width: 100%;
+  padding: 1rem;
+  /* background-color: red; */
+  /* background-color: hsl(0, 0%, 15%); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  /* box-sizing: border-box; */
+}
+.check-number {
+  padding: 1.4rem 3.2rem 1.4rem 3.2rem;
+  text-align: center;
+  background-color: inherit;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: inherit;
+  font-size: 3.2rem;
+  width: 15rem;
+}
+.submit {
+  font-family: inherit;
+  color: #333;
+  font-size: 1.3rem;
+  padding: 1.4rem 2.2rem 1.4rem 2.2rem;
+}
+.submit:hover,
+.submit:active {
+  background-color: #c0c0c0;
+  cursor: pointer;
+}
+.points {
+  width: 100%;
+  padding-left: 7.5rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: inherit;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.score {
+  margin-top: 2.4rem;
+  justify-self: flex-end;
+}
